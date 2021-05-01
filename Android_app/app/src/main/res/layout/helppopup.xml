@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KCC - ver 1.0.0"
+        android:textColor="#b8860b"
+        android:layout_gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/txsauron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="Sauron? 얼굴, 음성 인식 도어락\n\n\n-----모드 살펴보기-----"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="SmartLock - 간편한 잠금 해제"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="View - 도어락 카메라 시점 보기"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txsari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="Sari - 음성 인식으로 도어락 잠금 해제"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txnewface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="NewFace - 새로운 사용자 추가"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

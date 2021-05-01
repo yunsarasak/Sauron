@@ -1,0 +1,20 @@
+{
+    "envtwo": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-sauronyunseok-envtwo-151504-authRole",
+            "UnauthRoleArn": "arn:aws:iam::705398414472:role/amplify-sauronyunseok-envtwo-151504-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::705398414472:role/amplify-sauronyunseok-envtwo-151504-authRole",
+            "Region": "ap-northeast-2",
+            "DeploymentBucketName": "amplify-sauronyunseok-envtwo-151504-deployment",
+            "UnauthRoleName": "amplify-sauronyunseok-envtwo-151504-unauthRole",
+            "StackName": "amplify-sauronyunseok-envtwo-151504",
+            "StackId": "arn:aws:cloudformation:ap-northeast-2:705398414472:stack/amplify-sauronyunseok-envtwo-151504/ecc3aaa0-8f60-11ea-a1a2-021bedb581f0",
+            "AmplifyAppId": "dbew84rsgz3ka"
+        },
+        "categories": {
+            "auth": {
+                "cognito72c2bb57": {}
+            }
+        }
+    }
+}

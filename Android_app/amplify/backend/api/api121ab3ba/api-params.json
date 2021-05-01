@@ -1,0 +1,48 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "sauronyunseok5d9df012",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "api121ab3ba",
+    "apiName": "api121ab3ba",
+    "functionArns": [
+        {
+            "lambdaFunction": "sauronyunseok5d9df012"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-sauronyunseok-envtwo-151504-authRole",
+        "unAuthRoleName": "amplify-sauronyunseok-envtwo-151504-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "sauronyunseok5d9df012",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

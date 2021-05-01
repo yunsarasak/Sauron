@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#636363"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="398dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logo4" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        >
+
+        <ImageButton
+            android:id="@+id/lock"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/mbutton"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lock_symbol" />
+
+        <ImageButton
+            android:id="@+id/view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/cctv_icon"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@drawable/mbutton"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="top"
+        >
+        <ImageButton
+            android:id="@+id/sari"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/sound_wave"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@drawable/mbutton"
+            android:padding="10dp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/newface"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/new_face"
+            android:layout_margin="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:background="@drawable/mbutton"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/help"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="#fff"
+        android:text="?" />
+
+</LinearLayout>

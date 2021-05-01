@@ -1,0 +1,5 @@
+main_body/mjpg-streamer/** linguist-vendored
+Android_app/*.java linguist-generated
+#Android_app/** linguist-vendored
+#*.c linguist-detectable=false //.c 파일무시함. .h도 같이 무시해야 c 태그 없어짐.
+#path/** 하위폴더 리컬시브하게 무시
