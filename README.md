@@ -21,5 +21,5 @@ Face recognition door lock using AWS rekognition, RaspberryPi, RabbitMQ, paho
 -얼굴 인식 및 도어락 해제
 
 ##시스템 구성도
-![시스템_구성도]https://github.com/yunsarasak/Sauron/blob/main/System_Architecture.png
+![시스템_구성도](https://github.com/yunsarasak/Sauron/blob/main/System_Architecture.png)
 
