@@ -8,7 +8,7 @@ Face recognition door lock using AWS rekognition, RaspberryPi, RabbitMQ, paho
 
 
 ## ⏱️개발 기간
--2019.06 ~ 2019.11 (창의설계프로젝트)
+2019.06 ~ 2019.11 (창의설계프로젝트)
 
 ## 📄구현기능
 - 도어락 원격 제어
