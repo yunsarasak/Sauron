@@ -2,8 +2,6 @@
 Face recognition door lock using AWS rekognition, RaspberryPi, RabbitMQ, paho
 
 ## 💻프로젝트 소개
----
-
 "AWS Rekognition"서비스를 활용한 안면인식 도어락입니다.
 
 
